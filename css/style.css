@@ -1,0 +1,289 @@
+* {
+	box-sizing: border-box;
+} 
+
+body {
+	background-image: url(../images/background_stone.jpg);
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+}
+
+header {
+	background-color: #ffffff;
+	margin-bottom: 35px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-width: 3px;
+	min-width: 960px;
+}
+
+nav {
+	float: right;
+	position: relative;
+	top: 30px;
+	color: #777777;
+}
+
+main {
+	width: 960px;
+	margin: auto;
+	position: relative;
+
+}
+
+section {
+	width: 650px;
+	margin-bottom: 115px;
+	line-height: 30px;
+	float:left;
+}
+
+aside {
+	width: 270px;
+	float: right;
+}
+
+footer {
+	background-color: #666666;
+	padding: 30px;
+	clear: both;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 7px;
+	font-size: .7em;
+	color: #cccccc;
+}
+
+h1 {
+	padding-bottom: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+	border-color: #dddddd;
+	border-width: 3px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-size: 1.8em;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-size: 1.3em;
+	padding-bottom: 15px;
+	border-bottom-style: solid;
+	border-color: #dddddd;
+	border-width: 2px;
+	margin-bottom: 25px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	color: #777777;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	font-size: .8em;
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #dddddd;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #dddddd;
+   opacity:  1;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #dddddd;
+   opacity:  1;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #dddddd;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #dddddd;
+}
+
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	color: #777777;
+	border-color: #dddddd;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	font-size: .8em;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #777777;
+}
+
+a:visited {
+	color: #777777;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+.headerWrap {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: auto;
+}
+
+.myName {
+	float: left;
+	background-color: #4aaaa5;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+
+.navigate {
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 1.2em;
+	color: #777777;
+}
+
+.contentBox {
+	background-color: #ffffff;
+	padding: 25px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 1px;
+}
+
+.portfolioItem {
+	width: 281px;
+	height: 192px;
+	background-color: #aaaaaa;
+	float: left;
+}
+
+.portfolioBanner {
+	background-color: #4aaaa5;
+	padding-top: 16px;
+	height: 60px;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	top: 120px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.3em;
+}
+
+.portfolioItem:hover {
+	box-shadow: 10px 10px 20px grey;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.portfolioFirstRow {
+	margin-right: 35px;
+	margin-bottom: 35px;
+}
+
+.portfolioSecondRow {
+	margin-bottom: 35px;
+}
+
+.submitButton {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 0px 10px 0px;
+	width: 120px;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.icon:hover {
+	box-shadow: 5px 5px 20px grey;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+#aboutLink {
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 2px;
+}
+
+#portfolioLink {
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 2px;
+}
+
+#contactLink {
+	padding-right: 0px;
+}
+
+
+#myPic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+#git {
+	margin-right: 7px;
+	width: 64px;
+}
+
+#linkedIn {
+	margin-right: 7px;
+	width: 64px;
+}
+
+#stackOverflow {
+	width: 64px;
+}
+
+#puzzleGame {
+	background-image: url(../images/puzzleGame.png);
+}
+
+#rpgGame {
+	background-image: url(../images/rpg.jpg);
+}
+
+#fantasyEsports {
+	background-image: url(../images/esports.jpg);
+}
+
+#thlCompanionApp {
+	background-image: url(../images/code.jpg);
+}
+
+#colorToy {
+	background-image: url(../images/color.png);
+}
