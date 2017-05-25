@@ -58,6 +58,10 @@ a:visited {
 	color: #666;
 }
 
+a:link {
+	color: #666;
+}
+
 button {
 	background-color: #eee;
 	border-style: none;
